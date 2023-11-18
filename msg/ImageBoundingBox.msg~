@@ -1,5 +1,0 @@
-std_msgs/Header header
-ImagePoint center
-uint16 width
-uint16 height
-ImagePoint[4] cornerPoints

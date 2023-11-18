@@ -1,0 +1,5 @@
+<launch>
+  <param name="/camera_topic" type="string" value="/image_raw" />
+  <param name="/cascade_file" type="string" value="/usr/share/opencv4/haarcascades/haarcascade_frontalface_alt2.xml" />
+  <node name="Haar_Cascade" pkg="haar_cascade" type="face_detector" output="screen"/>
+</launch>
