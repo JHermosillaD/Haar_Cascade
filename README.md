@@ -1,4 +1,6 @@
 # Haar cascade face detector
+![Static Badge](https://img.shields.io/badge/ros%20-%20noetic%20-blue) ![GitHub top language](https://img.shields.io/github/languages/top/jhermosillad/haar_cascade)
+
 ROS package for face detection. The package subscribes to an image and uses the OpenCV haar cascade for detection. The image containing the bounding box and its coordinates is published in real time through different topics.
 ## Set-up
 ### Requirements
